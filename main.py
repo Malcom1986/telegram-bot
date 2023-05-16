@@ -32,4 +32,9 @@ def random_card():
   return value, suit
 
 
-bot.infinity_polling()
+def main():
+	bot.infinity_polling()
+
+
+if __name__ == '__main__':
+	main()
